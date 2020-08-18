@@ -1,0 +1,21 @@
+// Today's temperature in Kelvin is 293
+const kelvin = 0;
+console.log(kelvin);
+
+// celsius is 273 less than kelvin
+const celsius = kelvin - 273;
+console.log(celsius);
+
+// farenheit = c * ( 9 / 5 ) + 32 
+let farenheit = celsius * (9 / 5) + 32;
+console.log(farenheit);
+
+// .floor method to round down
+Math.floor(farenheit);
+console.log(farenheit);
+console.log("The temperature is " + farenheit + " degrees farenheit" + ".");
+
+let newton = celsius * (33 / 100);
+console.log(newton);
+newton = Math.floor(newton);
+console.log('The temperature is ' + newton + ' degrees Newton.');
